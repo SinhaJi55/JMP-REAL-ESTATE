@@ -1,0 +1,35 @@
+.companies-container{
+           justify-content: space-between;
+           gap:26rem;
+}
+.companies-container > img{
+           width: 2rem;
+} 
+
+
+.movingdiv{
+ margin-top: 1rem;
+  position: relative;
+  bottom: 15%;
+  white-space: nowrap;
+  padding: 0.6rem;
+  width: 100%;
+  overflow: hidden;
+ white-space: nowrap;
+      box-shadow: 8px 8px 16px 16px #82ff1f;
+
+}
+.movingdiv .move {
+display: inline-block;
+animation: movee 10s linear infinite;
+gap:2vw;
+}
+@keyframes movee {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}

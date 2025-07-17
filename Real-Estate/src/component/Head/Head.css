@@ -1,0 +1,75 @@
+.head {
+  background-color: gray;
+  color: white;
+}
+.h-container {
+  justify-content: space-between;
+  padding: 1rem;
+  padding-bottom: 1rem;
+  color: white;
+  font-size: x-large;
+  font-weight: 600;
+}
+.headmenu {
+  gap: 2rem;
+}
+.headmenu:hover {
+  cursor: pointer;
+}
+
+.head img {
+  height: max-content;
+  box-shadow: 1px 1px 1px 1px #82ff1f;
+  border-radius: 15px;
+}
+.l1:hover,
+.l2:hover,
+.l3:hover,
+.l4:hover,
+.l5:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  text-shadow: 2px 2px 2px #17a2b8;
+  transition: all 0.3s ease;
+  background-color: #82ff1f;
+}
+.menu-icon {
+  display: none;
+}
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+  .headmenu {
+    color: black;
+    position: absolute;
+    top: 3rem;
+    right: 4rem;
+    background-color: white;
+    flex-direction: column;
+    font-weight: 500;
+    gap: 3rem;
+    padding: 3rem;
+    border-radius: 10px;
+    align-items: flex-start;
+    box-shadow: 1px 1px 1px 1px #82ff1f;
+    transition: all 300ms ease-in;
+    z-index: 1;
+  }
+  .contain {
+    z-index: 0;
+  }
+  .Comm-container,
+  .inner-container {
+    position: relative;
+    height: fit-content;
+    width: 400px;
+    right: 50%;
+  }
+  .f-wrapper,
+  .f-menu,
+  .T {
+    position: relative;
+    right: 9%;
+  }
+}

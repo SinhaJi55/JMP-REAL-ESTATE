@@ -1,0 +1,42 @@
+.f-container{
+       justify-content: space-between;
+       
+}
+.f-left{
+    gap:1.6rem;
+}
+
+.f-menu{
+    gap:1.5rem;
+    margin-top: 1.8rem;
+    font-weight: 800;
+    color: black;
+}
+.T{
+    font-size: 1rem;
+}
+
+.F{
+justify-content: space-between;
+border:1px solid black;
+       box-shadow: 5px 5px 5px 5px #82ff1f;
+margin-left: 6rem;
+border-radius: 10px;
+}
+.Info{
+    color: black ;
+}
+.l1:hover,
+.l2:hover,
+.l3:hover,
+.l4:hover,
+.l5:hover {
+  transform: translateY(-3px);
+  box-shadow: 5px 5px 5px 10px rgba(0, 0, 0, 0.3);
+  text-shadow: 2px 2px 2px #17a2b8;
+  transition: all 0.3s ease;
+  background-color: 	#82ff1f;
+}
+.f-wrapper{
+    box-shadow:5px 5px 5px 10px black;
+}

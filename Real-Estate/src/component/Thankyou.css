@@ -1,0 +1,23 @@
+.LastPage{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    flex-direction: column;
+    border-radius: 5px;
+}
+.thank{
+    font-weight: 900;
+    font-size: 1.5rem;
+    color:white;
+}
+.reach{
+     color: #82ff1f;
+     font-weight: 900;
+}
+img{
+    box-shadow: 1px 1px 1px 2px #82ff1f;
+   border-radius: 15px;
+}
